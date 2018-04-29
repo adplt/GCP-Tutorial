@@ -1,0 +1,16 @@
+{
+  "name": "bigquery-sample-app",
+  "version": "1.5.1",
+  "description": "A BigQuery Learning for Tugas DWH",
+  "engines": {
+    "npm": ">=3"
+  },
+  "scripts": {
+    "getStorage": "node getStorage.js",
+    "createDataset": "node createDatasetBigQuery.js"
+  },
+  "dependencies": {
+    "google-cloud": "^0.57.0"
+  },
+  "devDependencies": {}
+}
