@@ -1,0 +1,33 @@
+{
+  "kind": "bigquery#dataset",
+  "etag": "etag",
+  "id": "string",
+  "selfLink": "string",
+  "datasetReference": {
+    "datasetId": "string",
+    "projectId": "string"
+  },
+  "friendlyName": "string",
+  "description": "string",
+  "defaultTableExpirationMs": "long",
+  "labels": {
+    "key": "string => key in here is a desirable key"
+  },
+  "access": [
+    {
+      "role": "string",
+      "userByEmail": "string",
+      "groupByEmail": "string",
+      "domain": "string",
+      "specialGroup": "string",
+      "view": {
+        "projectId": "string",
+        "datasetId": "string",
+        "tableId": "string"
+      }
+    }
+  ],
+  "creationTime": "long",
+  "lastModifiedTime": "long",
+  "location": "string"
+}

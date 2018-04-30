@@ -6,11 +6,14 @@
     "npm": ">=3"
   },
   "scripts": {
-    "getStorage": "node getStorage.js",
-    "createDataset": "node createDatasetBigQuery.js"
+    "getStorage": "node ./src/getStorage.js",
+    "createDataset": "node ./src/createDatasetBigQuery.js",
+    "createTableBigQuery": "node ./src/createTableBigQuery.js",
+    "deleteTableBigQuery": "node ./src/deleteTableBigQuery.js"
   },
   "dependencies": {
-    "google-cloud": "^0.57.0"
+    "google-cloud": "^0.57.0",
+    "https": "^1.0.0"
   },
   "devDependencies": {}
 }
